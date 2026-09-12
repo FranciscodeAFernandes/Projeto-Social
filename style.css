@@ -6,7 +6,30 @@
 }
 
 html, body {
-    height: 100vh;
-    width: 100vw;
-    background: url(pacote-d013\ \(1\)/);
+    min-height: 100vh;
+}
+
+body {
+    background: url(pacote-d013/imagens/fundo-madeira.jpg);
+}
+
+main {
+    position: relative;
+    min-height: 100vh;
+}
+
+section#iphone {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+section#icones {
+    position: absolute;
+    display: flexbox;
+    flex-direction: column;
+    left: 50%;
 }
